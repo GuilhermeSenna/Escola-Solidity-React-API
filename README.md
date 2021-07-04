@@ -5,7 +5,7 @@ Projeto de referência: [sbcas2021](https://github.com/lifuesc/sbcas2021)
 
 # Objetivo:
 
-O objetivo desse projeto é cadastrar alunos e suas 4 notas/créditos nessa disciplina. Após isso, será mostrado se o aluno se enquadra na lista de alunos aprovados ou reprovados por disciplina, baseado na média dessas notas.
+O objetivo desse projeto é cadastrar alunos, as disciplinas que estes alunos estão cursando e suas 4 notas/créditos nessa disciplina. Após isso, será mostrado se o aluno se enquadra na lista de alunos aprovados ou reprovados por disciplina, baseado na média dessas notas.
 
 # Escola.sol (deploy/contracts/Escola.sol)
 
