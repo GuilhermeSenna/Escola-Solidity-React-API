@@ -11,17 +11,17 @@ O objetivo desse projeto é cadastrar alunos, as disciplinas que estes alunos es
 
 Contrato Solidity responsável pela criação de toda a estrutura principal.
 
-Possui uma struct para armazenar os dados a serem recebidos pela API, que são:
+## Possui uma struct para armazenar os dados a serem recebidos pela API, que são:
 - Time (timestamp)
 - Nome do aluno
 - Nome da disciplina 
 - 4 notas nessa disciplina
 
-Possui 2 arrays que são: 
+## Possui 2 arrays que são: 
 - Lista de alunos aprovados na disciplina X. 
 - Lista de alunos reprovados na disciplina X.
 
-No método construtor são solicitados 2 parâmetros: 
+# No método construtor são solicitados 2 parâmetros: 
 - Nome da escola.
 - Cidade dessa escola. 
 
