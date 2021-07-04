@@ -11,15 +11,23 @@ O objetivo desse projeto é cadastrar alunos e suas 4 notas/créditos nessa disc
 
 Contrato Solidity responsável pela criação de toda a estrutura principal.
 
-Possui uma struct para armazenar os dados a serem recebidos pela API, que são (Time (timestamp), nome do aluno, nome da disciplina e as 4 notas nessa disciplina).
+Possui uma struct para armazenar os dados a serem recebidos pela API, que são:
+- Time (timestamp)
+- Nome do aluno
+- Nome da disciplina 
+- 4 notas nessa disciplina
 
-Possui 2 arrays que são: a lista de alunos aprovados e reprovados.
+Possui 2 arrays que são: 
+- Lista de alunos aprovados na disciplina X. 
+- Lista de alunos reprovados na disciplina X.
 
-No método construtor são solicitados 2 parâmetros: nome da escola e cidade dessa escola. 
+No método construtor são solicitados 2 parâmetros: 
+- Nome da escola.
+- Cidade dessa escola. 
 
 O objetivo da função insertAluno é capturar os dados obtidos da API para aplicar a lógica para saber da aprovação ou não do aluno. Baseado na aprovação ou não ele será inserido no array de aprovação ou reprovação, respectivo ao seu desempenho na média.
 
-As funções getAlunosAprovados e getAlunosReprovados é para serem passadas no Backend.
+As funções getAlunosAprovados e getAlunosReprovados é para usadas no React.
 
 # API (api/server.js)
 
