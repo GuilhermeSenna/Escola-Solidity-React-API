@@ -27,7 +27,7 @@ No método construtor são solicitados 2 parâmetros:
 
 O objetivo da função insertAluno é capturar os dados obtidos da API para aplicar a lógica para saber da aprovação ou não do aluno. Baseado na aprovação ou não ele será inserido no array de aprovação ou reprovação, respectivo ao seu desempenho na média.
 
-As funções getAlunosAprovados e getAlunosReprovados é para usadas no React.
+As funções getAlunosAprovados e getAlunosReprovados é para uso no React.
 
 # API (api/server.js)
 
